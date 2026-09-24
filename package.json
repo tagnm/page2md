@@ -1,0 +1,18 @@
+{
+  "name": "page2md-chrome-extension",
+  "version": "1.0.0",
+  "description": "Chrome extension to convert selected text to markdown",
+  "type": "module",
+  "scripts": {
+    "dev": "vite build --watch",
+    "build": "vite build && node copy-static.js && node generate-icons.js",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "vite": "^5.0.0",
+    "sharp": "^0.33.0"
+  },
+  "dependencies": {
+    "turndown": "^7.1.2"
+  }
+}
