@@ -2,6 +2,8 @@
 
 A simple Chrome extension that converts selected text on webpages to Markdown format, using the Turndown library for reliable HTML-to-Markdown conversion.
 
+![Page to Markdown extension popup](screenshot.png)
+
 ## Installation
 
 1. Ensure you have `icon-master.png` (1024x1024) in the project root
